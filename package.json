@@ -1,0 +1,27 @@
+{
+  "name": "tec-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+    "init:sass": "node-sass sass/main.scss scssfile.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duartejean/tec-front-end.git"
+  },
+  "author": "Jean Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duartejean/tec-front-end/issues"
+  },
+  "homepage": "https://github.com/duartejean/tec-front-end#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
